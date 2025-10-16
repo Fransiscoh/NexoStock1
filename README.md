@@ -1,0 +1,2 @@
+# NexoStock1
+proyecto
