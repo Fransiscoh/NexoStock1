@@ -1,0 +1,9 @@
+{
+  "name": "nexostock",
+  "version": 2,
+  "buildCommand": "echo 'Skipping build'",
+  "public": false,
+  "github": {
+    "enabled": false
+  }
+}
