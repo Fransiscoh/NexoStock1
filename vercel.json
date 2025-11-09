@@ -1,0 +1,24 @@
+{
+  "name": "nexostock",
+  "version": 2,
+  "public": false,
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "builds": [
+    {
+      "src": "next.config.mjs",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/frontend/(.*)",
+      "dest": "/frontend/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/app"
+    }
+  ]
+}
